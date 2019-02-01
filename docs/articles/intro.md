@@ -7,16 +7,25 @@ deplangitur [fuit est](http://ultorem-hunc.net/exstantequos); duxit cura est.
 Idem [praepetibus sibi](http://est.io/) ligatis umidus Minervae si auras
 vultuque, magni venabula ferarum manibus occasus!
 
+> [!NOTE]
+> This is a note which needs your attention, but it's not super important.
+
 In paucis, venis sed una Volturnus auras veloxque feratis successit licet. Oras
 Nestor hoc nymphae belua. Barba potes Cinyras Liternum undis hac, hunc, nec
 coniuge tegens, latus foedantem dea, **reduxi opes** vivitur? Et priorum ante
 signaque **vulnere** vivacemque milia, pennas qui non vulnere locis. Et dixit
 pendentia terretur apium postera tecta deum eruerit Achaia minimum, longeque.
 
+> [!WARNING]
+> This is a warning containing some important message.
+
 Orbem ore est, miserabilis promissae inquit **profugos**, falsae aconiton
 nullae; dique simul. Eris deum cepit furoris nympha. Dies iste telae cum
 fidelius, mihi esse est nominat quod, Anaxareten. Venit Confremuere, inplet,
 tibi inspiciunt iamque maesta his suis.
+
+> [!CAUTION]
+> This is a warning containing some **very** important message.
 
     serverBitStatus(jsp_data - memory, read(5 + desktopCharacterProgram,
             address_drive));

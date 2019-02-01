@@ -3,6 +3,8 @@
 A simple material theme for DocFX. This is an override of the default template
 so you need to enable both in the `docfx.json`.
 
+The colors were chosen using <https://material.io/tools/color>.
+
 ![DocFX Material Site](./images/material-site.png)
 
 ## Install
@@ -19,3 +21,17 @@ so you need to enable both in the `docfx.json`.
         ],
     }
     ```
+
+## Markdown extras
+
+For more reference about markdown support in DocFX check the
+[official documentation.](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#note-warningtipimportant) 
+
+> [!NOTE]
+> This is a note which needs your attention, but it's not super important.
+>
+> [!WARNING]
+> This is a warning containing some important message.
+>
+> [!CAUTION]
+> This is a warning containing some **very** important message.

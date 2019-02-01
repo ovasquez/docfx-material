@@ -1,0 +1,7 @@
+- name: Changelog
+  href: CHANGELOG.md
+- name: Sample Articles
+  href: articles/
+- name: Sample API
+  href: api/
+  topicHref: api/index.md

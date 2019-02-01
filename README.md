@@ -1,7 +1,7 @@
 # DocFX Material
 
-A simple material theme for DocFX. This is an override of the default template
-so you need to enable both in the `docfx.json`.
+A simple material theme for [DocFX](https://dotnet.github.io/docfx/). This is an
+override of the default template so you need to enable both in the `docfx.json`.
 
 ![DocFX Material Site](./sample/images/material-site.png)
 
