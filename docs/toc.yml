@@ -5,3 +5,5 @@
 - name: Sample API
   href: api/
   topicHref: api/index.md
+- name: GitHub
+  href: https://github.com/ovasquez/docfx-material/
