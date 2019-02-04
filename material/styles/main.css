@@ -168,6 +168,7 @@ article h4 {
     margin-top: 0;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 4px 4px 0 0;
 }
 
 .alert-info>h5 {
