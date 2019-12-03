@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "S:/Workspace/Experimental/docfx-material/docs",
+  "source_base_path": "C:/Users/ovasquez/Workspace/experiments/docfx-material/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "M7aGoHHECFySf2zfMaIcWg=="
+          "hash": "Vfhc/gqiMWIc5jd3Vrew8A=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "enR50qWYQ0j9fg3TJkAbcA=="
+          "hash": "FGRdNnFfkSwM7lIXfK9/pQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aodEYXa1dFbHLa6/zMKnJQ=="
+          "hash": "LFzAAZ79WsKa7TKYGAZXVA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content2.html",
-          "hash": "iYYos+jFi3SeEe8bbevtHA=="
+          "hash": "E3WT+cSzOmQw2JbJ1Wv4EQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content3.html",
-          "hash": "wsDLZcjSkZf2Zci/q/TLmg=="
+          "hash": "pxKbyUZGRAmBYH78nFDUhQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "RYWme1uhAwIZPyud9uKcsQ=="
+          "hash": "CwurYKXjFYZ8VC9MVaP1Jg=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "61qc4EEeYZiu/8s8On126A=="
+          "hash": "qNYNuOVivL7xG+TiExh4Wg=="
         }
       },
       "is_incremental": false,
@@ -157,7 +157,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Uyy6oTQuq3fyn7i9lc/WNA=="
+          "hash": "3sp5m4M/OZ2u3KpvX689mA=="
         }
       },
       "is_incremental": false,
@@ -169,7 +169,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "uut251WV/gIIVLWMQt0CYQ=="
+          "hash": "L5u/+GvO/lB8kBWAVKgkDg=="
         }
       },
       "is_incremental": false,
@@ -179,8 +179,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0
@@ -193,17 +192,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 5
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
           "skipped_file_count": 0
         }
       }
