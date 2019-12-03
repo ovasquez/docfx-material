@@ -21,3 +21,16 @@ The colors were chosen using <https://material.io/tools/color>.
         ],
     }
     ```
+
+## Color customization
+
+You can easily customize the color of the header bar and the links by updating
+the following variables in the `material/styles/main.css` file.
+
+```css
+:root {
+  --primary-color: #1565c0; /* Header color */
+  --primary-light: #5e92f3; /* Link color */
+  --primary-dark: #003c8f; /* Link:hover color */
+}
+```

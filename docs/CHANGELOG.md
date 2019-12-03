@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.3.0 - December 2nd 2019
+
+- Added easy customization of header and link colors.
+
 ## Version 0.2.0 - February 1st 2019
 
 - Added material theme for the `note|warning|caution` blockquotes.
