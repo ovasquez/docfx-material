@@ -30,8 +30,8 @@ the following variables in the `material/styles/main.css` file.
 ```css
 :root {
   --primary-color: #1565c0; /* Header color */
-  --primary-light: #5e92f3; /* Link color */
-  --primary-dark: #003c8f; /* Link:hover color */
+  --primary-dark: #003c8f; /* Link color */
+  --primary-light: #5e92f3; /* Link:hover color */
 }
 ```
 
