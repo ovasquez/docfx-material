@@ -1,9 +1,11 @@
 /* COLOR VARIABLES*/
 :root {
-  --primary-color: #0d47a1;
-  --primary-light: #5e92f3;
-  --primary-dark: #003c8f;
+  --header-bg-color: #0d47a1;
+  --header-ft-color: #fff;
+  --highlight-light: #5e92f3;
+  --highlight-dark: #003c8f;
   --font-color: #34393e;
+  --custom-box-shadow: 0 1px 2px 0 rgba(61, 65, 68, 0.06), 0 1px 3px 1px rgba(61, 65, 68, 0.16);
 }
 
 body {
@@ -20,7 +22,7 @@ body {
 
 button,
 a {
-  color: var(--primary-dark);
+  color: var(--highlight-dark);
   cursor: pointer;
 }
 
@@ -28,22 +30,22 @@ button:hover,
 button:focus,
 a:hover,
 a:focus {
-  color: var(--primary-light);
+  color: var(--highlight-light);
   text-decoration: none;
 }
 
 .toc .nav > li.active > a {
-  color: var(--primary-dark);
+  color: var(--highlight-dark);
 }
 
 .toc .nav > li.active > a:hover,
 .toc .nav > li.active > a:focus {
-  color: var(--primary-light);
+  color: var(--highlight-light);
 }
 
 .pagination > .active > a {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--header-bg-color);
+  border-color: var(--header-bg-color);
 }
 
 .pagination > .active > a,
@@ -52,8 +54,8 @@ a:focus {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-  background-color: var(--primary-light);
-  border-color: var(--primary-light);
+  background-color: var(--highlight-light);
+  border-color: var(--highlight-light);
 }
 
 /* HEADINGS */
@@ -96,15 +98,15 @@ article h4 {
 /* NAVBAR */
 
 .navbar-brand > img {
-  color: #fff;
+  color: var(--header-ft-color);
 }
 
 .navbar {
   border: none;
   /* Both navbars use box-shadow */
-  -webkit-box-shadow: 0px 1px 3px 0px rgba(100, 100, 100, 0.5);
-  -moz-box-shadow: 0px 1px 3px 0px rgba(100, 100, 100, 0.5);
-  box-shadow: 0px 1px 3px 0px rgba(100, 100, 100, 0.5);
+  -webkit-box-shadow: var(--custom-box-shadow);
+  -moz-box-shadow: var(--custom-box-shadow);
+  box-shadow: var(--custom-box-shadow);
 }
 
 .subnav {
@@ -113,30 +115,30 @@ article h4 {
 }
 
 .navbar-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--header-bg-color);
   z-index: 100;
 }
 
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-text {
-  color: #fff;
-  background-color: var(--primary-color);
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color);
   border-bottom: 3px solid transparent;
   padding-bottom: 12px;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
-  background-color: var(--primary-color);
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color);
   border-bottom: 3px solid white;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
-  color: #fff;
-  background-color: var(--primary-color);
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color);
   border-bottom: 3px solid white;
 }
 
@@ -198,7 +200,7 @@ article h4 {
   color: inherit;
   background-color: inherit;
   border: none;
-  box-shadow: 0px 2px 2px 0px rgba(100, 100, 100, 0.4);
+  box-shadow: var(--custom-box-shadow);
 }
 
 .alert > p {
@@ -246,5 +248,6 @@ pre {
   word-wrap: break-word;
   background-color: #fffaef;
   border-radius: 4px;
-  box-shadow: 0px 1px 4px 1px rgba(100, 100, 100, 0.4);
+  border: none;
+  box-shadow: var(--custom-box-shadow);
 }

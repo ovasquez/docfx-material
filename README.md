@@ -28,9 +28,12 @@ You can easily customize the color of the header bar and the links by updating
 the following variables in the `material/styles/main.css` file.
 
 ```css
+/* COLOR VARIABLES*/
 :root {
-  --primary-color: #1565c0; /* Header color */
-  --primary-dark: #003c8f; /* Link color */
-  --primary-light: #5e92f3; /* Link:hover color */
+  --header-bg-color: #0d47a1;
+  --header-ft-color: #fff;
+  --highlight-light: #5e92f3;
+  --highlight-dark: #003c8f;
+  --font-color: #34393e;
 }
 ```

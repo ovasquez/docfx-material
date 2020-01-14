@@ -19,6 +19,7 @@
         ]
       }
     ],
+    "markdownEngineName": "markdig",
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],

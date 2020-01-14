@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.3.1 - January 13th 2020
+
+- Minor update in styles and shadows.
+
 ## Version 0.3.0 - December 2nd 2019
 
 - Added easy customization of header and link colors.
