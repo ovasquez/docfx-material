@@ -8,7 +8,7 @@
     <title>DocFX Material | DocFX Material </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="DocFX Material | DocFX Material ">
-    <meta name="generator" content="docfx 2.47.0.0">
+    <meta name="generator" content="docfx 2.48.1.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -82,31 +82,52 @@ override of the default template so you need to enable both in the <code>docfx.j
 <li>Create a <code>templates</code> folder in the root of your DocFX directory.</li>
 <li>Copy the <code>material</code> folder to the <code>templates</code> folder.</li>
 <li>Update the <code>docfx.json</code> configuration to include the material template:
- <code>json
- {
-     &quot;template&quot;: [
-         &quot;default&quot;,
-         &quot;templates/material&quot;
-     ],
- }</code></li>
+<pre><code class="lang-json">{
+    &quot;template&quot;: [
+        &quot;default&quot;,
+        &quot;templates/material&quot;
+    ],
+}
+</code></pre>
+</li>
 </ol>
 <h2 id="color-customization">Color customization</h2>
 <p>You can easily customize the color of the header bar and the links by updating
 the following variables in the <code>material/styles/main.css</code> file.</p>
-<pre><code class="lang-css">:root {
-  --primary-color: #1565c0; /* Header color */
-  --primary-dark: #003c8f; /* Link color */
-  --primary-light: #5e92f3; /* Link:hover color */
+<pre><code class="lang-css">/* COLOR VARIABLES*/
+:root {
+  --header-bg-color: #0d47a1;
+  --header-ft-color: #fff;
+  --highlight-light: #5e92f3;
+  --highlight-dark: #003c8f;
+  --font-color: #34393e;
 }
-</code></pre><h2 id="markdown-extras">Markdown extras</h2>
+</code></pre>
+<h2 id="markdown-extras">Markdown extras</h2>
 <p>For more reference about markdown support in DocFX check the
-<a href="https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#note-warningtipimportant">official documentation.</a> </p>
-<div class="NOTE"><h5>Note</h5><p>This is a note which needs your attention, but it&#39;s not super important.</p>
+<a href="https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#note-warningtipimportant">official documentation.</a></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is a note which needs your attention, but it's not super important.</p>
 </div>
-<div class="WARNING"><h5>Warning</h5><p>This is a warning containing some important message.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>This is a warning containing some important message.</p>
 </div>
-<div class="CAUTION"><h5>Caution</h5><p>This is a warning containing some <strong>very</strong> important message.</p>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>This is a warning containing some <strong>very</strong> important message.</p>
 </div>
+<h2 id="docfx-tips">DocFX tips</h2>
+<h3 id="enable-search">Enable search</h3>
+<p>To enable search in DocFX it's not enough to set the configuration parameter to <code>true</code>:</p>
+<pre><code class="lang-json">&quot;globalMetadata&quot;: {
+    &quot;_enableSearch&quot;: &quot;true&quot;
+}
+</code></pre>
+<p>You also have to indicate in the <code>docfx.json</code> the post processor that generates the index for the searches:</p>
+<pre><code class="lang-json">&quot;postProcessors&quot;: [&quot;ExtractSearchIndex&quot;],
+</code></pre>
 </article>
           </div>
           
