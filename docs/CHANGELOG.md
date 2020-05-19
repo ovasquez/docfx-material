@@ -1,5 +1,17 @@
 # Changelog
 
+## Version 0.4.0 - May 19th 2020
+
+- Usability improvements and minor style changes in textboxes.
+
+<img src="./images/index/docfx-search.gif" alt="Search highlights" class="small-image"/>
+
+<br/>
+<br/>
+
+<img src="./images/index/docfx-filter.gif" alt="Filter highlights" class="small-image"/>
+
+
 ## Version 0.3.1 - January 13th 2020
 
 - Minor update in styles and shadows.
