@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "3wLUZPXMr2Q296HRiG+GHg=="
+          "hash": "/N20HAjjFbxeLwObFlNQaQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "ef1aNjSQkRiXGDsbBGCsuQ=="
+          "hash": "jvUUQy57idZ1OLPxwuLjHg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content2.html",
-          "hash": "XP3O+vYvHQLCK9B+pj3D0A=="
+          "hash": "H8nAzg4IYFwiZI93bmpmbw=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content3.html",
-          "hash": "v9TWwvtEK54WS94ucldgbA=="
+          "hash": "d495QhHSssTfK0WOeS9liw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "uJCCdrM2BzI/usGVbVPs7Q=="
+          "hash": "+BTlR+Z7DsdUcFSRPZfPHA=="
         }
       },
       "is_incremental": false,
@@ -98,10 +98,32 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/material-site.png",
+      "source_relative_path": "images/index/docfx-filter.gif",
       "output": {
         "resource": {
-          "relative_path": "images/material-site.png"
+          "relative_path": "images/index/docfx-filter.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/index/docfx-screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/index/docfx-screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/index/docfx-search.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/index/docfx-search.gif"
         }
       },
       "is_incremental": false,
@@ -157,7 +179,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "afRVSLkHB7gPV0mstNzwZw=="
+          "hash": "YcmaaVvjbc34TMYuzn7XhQ=="
         }
       },
       "is_incremental": false,
@@ -185,6 +207,12 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 6
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -198,12 +226,6 @@
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 6
         }
       }
     },
