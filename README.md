@@ -5,7 +5,7 @@ override of the default template so you need to enable both in the `docfx.json`.
 
 The colors were chosen using <https://material.io/tools/color>.
 
-![DocFX Material Site](./docs/images/material-site.png)
+![DocFX Material Site](./docs/images/index/docfx-screenshot.png)
 
 ## Install
 
