@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "/N20HAjjFbxeLwObFlNQaQ=="
+          "hash": "ImK8iUodT9epva7k4mwgvg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "jvUUQy57idZ1OLPxwuLjHg=="
+          "hash": "1Lf6re2hJ97aW9XL1Hnq+Q=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content2.html",
-          "hash": "H8nAzg4IYFwiZI93bmpmbw=="
+          "hash": "GjYtmI6IoaH1cIkLwJdbQA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/content3.html",
-          "hash": "d495QhHSssTfK0WOeS9liw=="
+          "hash": "OOL2pEB2GTlwLTdESZuMlQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "+BTlR+Z7DsdUcFSRPZfPHA=="
+          "hash": "W7QQUA6hsRhsRw/vozKW1w=="
         }
       },
       "is_incremental": false,
@@ -130,56 +130,12 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "images/screenshot-1-shadow.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/screenshot-1-shadow.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/screenshot-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/screenshot-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/screenshot-2-shadow.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/screenshot-2-shadow.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/screenshot-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/screenshot-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "YcmaaVvjbc34TMYuzn7XhQ=="
+          "hash": "AJ0OU5hFpkcSW3h0xvsxFQ=="
         }
       },
       "is_incremental": false,
@@ -211,7 +167,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 5
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
