@@ -7,19 +7,6 @@ The colors were chosen using <https://material.io/tools/color>.
 
 ![DocFX Material Site](./images/index/docfx-screenshot.png)
 
-## Usability improvements
-
-- Highlight on search box
-
-<img src="./images/index/docfx-search.gif" alt="Search highlights" class="small-image"/>
-
-<br/>
-<br/>
-
-- Highlight on filter box
-
-<img src="./images/index/docfx-filter.gif" alt="Filter highlights" class="small-image"/>
-
 ## Install
 
 1. Download the source or the zipped file from the [releases](https://github.com/ovasquez/docfx-material/releases).
