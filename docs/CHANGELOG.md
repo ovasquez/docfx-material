@@ -2,7 +2,7 @@
 
 ## Version 0.5.0 - Aug 27th 2020
 
-- Updated textbox style with rounded conrners and minor transition tweaks.
+- Updated textbox style with rounded corners and minor transition tweaks.
 - Fixed hover on hamburger menu (small screens).
 
 ## Version 0.4.0 - May 19th 2020
