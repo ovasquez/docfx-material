@@ -25,6 +25,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
+      "modern",
       "../material"
     ],
     "postProcessors": [

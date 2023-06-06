@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.0.0 - June Xth 2023
+
+- Updated styles to new material theme: https://m3.material.io/get-started
+- Now works with the [modern docfx template](https://dotnet.github.io/docfx/docs/template.html?tabs=modern)
+
 ## Version 0.5.1 - June 5th 2023
 
 - Fixed `head.tmlp.partial` to work with updated default template.
