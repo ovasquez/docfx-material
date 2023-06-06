@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.5.1 - June 5th 2023
+
+- Fixed `head.tmlp.partial` to work with updated default template.
+
 ## Version 0.5.0 - Aug 27th 2020
 
 - Updated textbox style with rounded corners and minor transition tweaks.
