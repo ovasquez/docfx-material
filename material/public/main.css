@@ -1,17 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 :root {
-  --bs-font-sans-serif: 'Roboto flex';
-  --card-box-shadow: 0 1px 2px 0 rgba(61, 65, 68, 0.06), 0 1px 3px 1px rgba(61, 65, 68, 0.16);
-}
-h1 {
-  color: #f11;
-}
+  --bs-font-sans-serif: 'Roboto';
+  --bs-border-radius: 10px;
+  --bs-navbar-active-color: var(--bs-primary);
 
-[data-bs-theme='dark'] h1 {
-  color: #1f1;
-}
+  --border-radius-button: 40px;
+  --card-box-shadow: 0 1px 2px 0 #3d41440f, 0 1px 3px 1px #3d414429;
 
+  --material-yellow-light: #e6dfbf;
+  --material-yellow-dark: #5a5338;
+
+  --material-blue-light: #c4d9f1;
+  --material-blue-dark: #383e5a;
+
+  --material-red-light: #f1c4c4;
+  --material-red-dark: #5a3838;
+
+  --material-warning-header: #f57f171a;
+  --material-warning-background: #f6e8bd;
+  --material-warning-background-dark: #57502c;
+
+  --material-info-header: #1976d21a;
+  --material-info-background: #e3f2fd;
+  --material-info-background-dark: #2c4557;
+
+  --material-danger-header: #d32f2f1a;
+  --material-danger-background: #ffebee;
+  --material-danger-background-dark: #572c2c;
+}
 
 /* HEADINGS */
 
@@ -49,39 +66,55 @@ article h4 {
   border-bottom: 2px solid #ddd;
 }
 
+/** IMAGES **/
+img {
+  border-radius: var(--bs-border-radius);
+  box-shadow: var(--card-box-shadow);
+}
 
 /** NAVBAR **/
-.navbar-nav > li > a,
-.navbar-text {
-  border-bottom: 3px solid yellowgreen;
-  padding-bottom: 12px;
-  transition: 350ms;
+.navbar-brand > img {
+  box-shadow: none;
+  color: var(--bs-nav-link-color);
 }
 
-.navbar-nav > li > a:focus,
-.navbar-nav > li > a:hover {
-  border-bottom: 3px solid red;
+[data-bs-theme='light'] nav.navbar {
+  background-color: var(--bs-primary-bg-subtle);
 }
 
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus.active,
-.navbar-nav > li > a:hover.active{
-  border-bottom: 3px solid rebeccapurple;
+.navbar-nav > li > a {
+  border-radius: var(--border-radius-button);
+  transition: 200ms;
 }
 
+.navbar-nav a.nav-link:focus,
+.navbar-nav a.nav-link:hover {
+  background-color: var(--bs-primary-border-subtle);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--bs-link-hover-color);
+}
+
+/** SEARCH AND FILTER **/
+input.form-control {
+  border-radius: var(--border-radius-button);
+}
+
+form.filter {
+  margin: 0.3rem;
+}
 
 /** ALERTS **/
 .alert {
-  padding: 0px 0px 5px 0px;
-  color: inherit;
-  background-color: inherit;
+  padding: 0;
   border: none;
   box-shadow: var(--card-box-shadow);
 }
 
 .alert > p {
-  margin-bottom: 0;
-  padding: 5px 10px;
+  padding: 0.2rem 0.7rem 0.7rem 1rem;
 }
 
 .alert > ul {
@@ -90,34 +123,57 @@ article h4 {
 }
 
 .alert > h5 {
-  padding: 10px 15px;
-  margin-top: 0;
-  text-transform: uppercase;
+  padding: 0.5rem 0.7rem 0.7rem 1rem;
+  border-radius: var(--bs-border-radius) var(--bs-border-radius) 0 0;
   font-weight: bold;
-  border-radius: 4px 4px 0 0;
+  text-transform: capitalize;
+}
+
+.alert-info {
+  color: var(--material-blue-dark);
+  background-color: var(--material-info-background);
+}
+
+[data-bs-theme='dark'] .alert-info {
+  color: var(--material-blue-light);
+  background-color: var(--material-info-background-dark);
 }
 
 .alert-info > h5 {
-  color: #1976d2;
-  border-bottom: 4px solid #1976d2;
-  background-color: #e3f2fd;
+  background-color: var(--material-info-header);
+}
+
+.alert-warning {
+  color: var(--material-yellow-dark);
+  background-color: var(--material-warning-background);
+}
+
+[data-bs-theme='dark'] .alert-warning {
+  color: var(--material-yellow-light);
+  background-color: var(--material-warning-background-dark);
 }
 
 .alert-warning > h5 {
-  color: #f57f17;
-  border-bottom: 4px solid #f57f17;
-  background-color: #fff3e0;
+  background-color: var(--material-warning-header);
+}
+
+.alert-danger {
+  color: var(--material-red-dark);
+  background-color: var(--material-danger-background);
+}
+
+[data-bs-theme='dark'] .alert-danger {
+  color: var(--material-red-light);
+  background-color: var(--material-danger-background-dark);
 }
 
 .alert-danger > h5 {
-  color: #d32f2f;
-  border-bottom: 4px solid #d32f2f;
-  background-color: #ffebee;
+  background-color: var(--material-danger-header);
 }
 
 /* CODE HIGHLIGHT */
 code {
-  border-radius: 10px;
+  border-radius: var(--bs-border-radius);
   margin: 4px 2px;
   box-shadow: var(--card-box-shadow);
 }
