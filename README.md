@@ -9,6 +9,7 @@ modern template you can still get it as [material-classic](./docs/classic.md).
 
 ![DocFX Material Site](./docs/images/docfx-screenshot.png)
 
+
 ## Install
 
 1. Download the source or the zipped file from the [releases](https://github.com/ovasquez/docfx-material/releases).
