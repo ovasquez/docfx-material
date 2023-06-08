@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 1.0.0 - June 7th 2023
+## Version 1.0.0 🥳 - June 7th 2023
 
 - Added support for the [modern docfx template](https://dotnet.github.io/docfx/docs/template.html?tabs=modern), including:
     - Light and dark mode.
