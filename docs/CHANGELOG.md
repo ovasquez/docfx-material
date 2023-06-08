@@ -1,9 +1,14 @@
 # Changelog
 
-## Version 1.0.0 - June Xth 2023
+## Version 1.0.0 - June 7th 2023
 
-- Updated styles to new material theme: https://m3.material.io/get-started
-- Now works with the [modern docfx template](https://dotnet.github.io/docfx/docs/template.html?tabs=modern)
+- Added support for the [modern docfx template](https://dotnet.github.io/docfx/docs/template.html?tabs=modern), including:
+    - Light and dark mode.
+    - Simplified color customization.
+    - Improved hover effects.
+    - Updated styles to new material theme: https://m3.material.io/get-started.
+- Previous material template renamed to [material-classic](./classic.md).
+- Removed the need for the `head.tmlp.partial` in material-classic, now only the `main.css` is needed.
 
 ## Version 0.5.1 - June 5th 2023
 
@@ -18,12 +23,12 @@
 
 - Usability improvements and minor style changes in textboxes.
 
-<img src="./images/index/docfx-search.gif" alt="Search highlights" class="small-image"/>
+<img src="./images/classic/docfx-search.gif" alt="Search highlights" class="small-image"/>
 
 <br/>
 <br/>
 
-<img src="./images/index/docfx-filter.gif" alt="Filter highlights" class="small-image"/>
+<img src="./images/classic/docfx-filter.gif" alt="Filter highlights" class="small-image"/>
 
 
 ## Version 0.3.1 - January 13th 2020
