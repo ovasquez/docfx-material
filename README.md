@@ -7,7 +7,8 @@ The design was inspired by https://m3.material.io/.
 If you are looking for the previous version of docfx-material that doesn't use the
 modern template you can still get it as [material-classic](./docs/classic.md).
 
-![DocFX Material Site](./images/docfx-screenshot.png)
+![DocFX Material Site](./docs/images/docfx-screenshot.png)
+
 
 ## Install
 
