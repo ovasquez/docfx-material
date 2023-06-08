@@ -3,7 +3,7 @@
 - name: Material classic
   href: classic.md
 - name: Changelog
-  href: CHANGELOG.md
+  href: changelog.md
 - name: Sample Articles
   href: articles/
 - name: Sample API
