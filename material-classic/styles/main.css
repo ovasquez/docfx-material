@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 /* COLOR VARIABLES*/
 :root {
   --header-bg-color: #0d47a1;
@@ -14,7 +16,7 @@
 
 body {
   color: var(--font-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -151,7 +153,7 @@ article h4 {
   border: 0;
   border-radius: 4px;
   box-shadow: var(--search-box-shadow);
-  transition:var(--transition);
+  transition: var(--transition);
 }
 
 .navbar-form .form-control:hover {
@@ -160,7 +162,8 @@ article h4 {
 
 /* NAVBAR TOGGLED (small screens) */
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
   border: none;
 }
 .navbar-inverse .navbar-toggle {
@@ -199,7 +202,7 @@ article h4 {
   padding: 5px;
   margin: 0;
   box-shadow: var(--card-box-shadow);
-  transition:var(--transition);
+  transition: var(--transition);
 }
 
 .toc-filter:hover {

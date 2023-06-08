@@ -1,3 +1,7 @@
+- name: Material
+  href: index.md
+- name: Material classic
+  href: classic.md
 - name: Changelog
   href: CHANGELOG.md
 - name: Sample Articles

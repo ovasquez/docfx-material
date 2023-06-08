@@ -1,11 +1,13 @@
 # DocFX Material
 
 A simple material theme for [DocFX](https://dotnet.github.io/docfx/). This is an
-override of the default template so you need to enable both in the `docfx.json`.
+override of the **modern** template so you need to enable both in the `docfx.json`.
+The design was inspired by https://m3.material.io/.
 
-The colors were chosen using <https://material.io/tools/color>.
+If you are looking for the previous version of docfx-material that doesn't use the
+modern template you can still get it as [material-classic](./classic.md).
 
-![DocFX Material Site](./images/index/docfx-screenshot.png)
+![DocFX Material Site](./images/docfx-screenshot.png)
 
 ## Install
 
@@ -13,35 +15,53 @@ The colors were chosen using <https://material.io/tools/color>.
 2. Create a `templates` folder in the root of your DocFX directory.
 3. Copy the `material` folder to the `templates` folder.
 4. Update the `docfx.json` configuration to include the material template:
-    ```json
-    {
-        "template": [
-            "default",
-            "templates/material"
-        ],
-    }
-    ```
+```json
+{
+    "template": [
+        "default",
+        "modern",
+        "templates/material"
+    ],
+}
+```
 
 ## Color customization
 
-You can easily customize the color of the header bar and the links by updating
-the following variables in the `material/styles/main.css` file.
+DocFX's modern template is based on Bootstrap 5 (version 5.3 at the time of writing)
+so you can use [Bootstrap's CSS variables](https://getbootstrap.com/docs/5.3/customize/css-variables/)
+to customize a lot of the colors.
+
+Here are some of the most common customizations that can be made in the template's
+CSS file `material/public/main.css`, like updating the header color, changing the font,
+
 
 ```css
-/* COLOR VARIABLES*/
-:root {
-  --header-bg-color: #0d47a1;
-  --header-ft-color: #fff;
-  --highlight-light: #5e92f3;
-  --highlight-dark: #003c8f;
-  --font-color: #34393e;
+/* Changing the navbar color only for the light theme */
+[data-bs-theme='light'] nav.navbar {
+  background-color: var(--bs-primary-bg-subtle);
 }
+
+/* Change active navlink color */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--bs-link-hover-color);
+}
+
+/* Changing the site font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+  ...
+  --bs-font-sans-serif: 'Roboto';
+  ...
+}
+
 ```
 
 ## Markdown extras
 
 For more reference about markdown support in DocFX check the
-[official documentation.](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html?tabs=tabid-1%2Ctabid-a#note-warningtipimportant) 
+[official documentation.](https://dotnet.github.io/docfx/docs/markdown.html) 
 
 > [!NOTE]
 > This is a note which needs your attention, but it's not super important.

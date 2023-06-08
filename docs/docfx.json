@@ -14,25 +14,20 @@
     ],
     "resource": [
       {
-        "files": [
-          "images/**"
-        ]
+        "files": ["images/**"]
       }
     ],
     "markdownEngineName": "markdig",
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default",
-      "../material"
-    ],
-    "postProcessors": [
-      "ExtractSearchIndex"
-    ],
+    "template": ["default", "modern", "../material"],
+    "postProcessors": ["ExtractSearchIndex"],
     "globalMetadata": {
-      "_appFooter": "<span>Copyright © 2019 Oscar Vasquez<br>Generated with <strong>DocFX</strong></span>",
+      "_appFooter": "<span>Copyright © 2023 Oscar Vasquez. Generated with <a href=\"https://dotnet.github.io/docfx\">DocFX</a></span>",
       "_appTitle": "DocFX Material",
+      "_appLogoPath": "images/code.svg",
+      "_appFaviconPath": "images/code.svg",
       "_enableSearch": "true",
       "_gitContribute": {
         "repo": "https://github.com/ovasquez/docfx-material"
